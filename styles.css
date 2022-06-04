@@ -58,6 +58,10 @@ section:nth-child(even) {
   background-color: #f8f8f8;
 }
 
+.section__title {
+  margin-bottom: 20px;
+}
+
 /* NAV BAR */
 
 nav {
@@ -161,3 +165,26 @@ nav {
 .about-me__img {
   width: 100%;
 }
+
+/* Tech stack */
+
+.language__img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.language {
+  width: 25%;
+}
+
+.language__img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language__list {
+  display: flex;
+  width: 100%;
+}
+
